@@ -1,0 +1,13 @@
+.listaProductos,
+.listaProductos-titulo{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+    li {
+        list-style-type: none;    
+    }
+}

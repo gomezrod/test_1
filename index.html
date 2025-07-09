@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <title>Test_1</title>
 </head>
 <body>
@@ -10,6 +16,18 @@
         <div>
             <h1>Como desestructurar la economia fomentando el consumo de travestis</h1>
             <p>Estudio Sociologico por Rodrigo Nicolas Gómez</p>
+            <form class="formulario">
+                <label for="inputNombre" class="form-label">Nombre del Traba:</label>
+                <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese el nombre del travesti">
+                <label for="inputEdad" class="form-label">Edad del Trans:</label>
+                <input type="text" class="form-control" id="inputEdad" placeholder="Ingrese la edad del travesti">
+                <label for="inputDescripcion" class="form-label">Breve descripcion del Traba:</label>
+                <textarea name="descripcion" id="inputDescripcion" class="form-control" placeholder="Breve descripción..."></textarea>
+            </form>
+            <button id="botonAgregar">Agregar Travesti</button>
+            <label for="listaProductos" class="listaProductos-titulo">Travestis Asignados</label>
+            <ul class="listaProductos">
+            </ul>
         </div>
         <div>
             <h2>Parte 1</h2>
